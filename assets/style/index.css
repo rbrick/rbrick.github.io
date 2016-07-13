@@ -1,11 +1,38 @@
+a, a:active, a:hover, a:link, a:visited {
+  text-decoration: none;
+}
+
 .social-icon {
   font-size: 18em;
   width: 250px;
   text-align: center;
+
+  /* Center it! */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* This is redundant but hey*/
+.profile-pic {
+  font-size: 18em;
+  width: 250px;
+  text-align: center;
+
+  /* Center it! */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon:hover {
+  filter: brightness(75%);
 }
 
 .social-github {
-  color: black;
+  color: #000007;
 }
 
 .social-twitter {
@@ -13,5 +40,5 @@
 }
 
 .social-steam {
-  color: #A2A09D;
+  color: #5D5F62;
 }
