@@ -2,10 +2,6 @@ a, a:active, a:hover, a:link, a:visited {
   text-decoration: none;
 }
 
-.test {
-  background-color: #F6F6F;
-}
-
 .social-icon {
   font-size: 18em;
   width: 250px;
