@@ -2,6 +2,10 @@ a, a:active, a:hover, a:link, a:visited {
   text-decoration: none;
 }
 
+.test {
+  background-color: #F6F6F;
+}
+
 .social-icon {
   font-size: 18em;
   width: 250px;
@@ -32,7 +36,7 @@ a, a:active, a:hover, a:link, a:visited {
 }
 
 .social-github {
-  color: #000007;
+  color: black;
 }
 
 .social-twitter {
@@ -40,5 +44,5 @@ a, a:active, a:hover, a:link, a:visited {
 }
 
 .social-steam {
-  color: #5D5F62;
+  color: #464749;
 }
