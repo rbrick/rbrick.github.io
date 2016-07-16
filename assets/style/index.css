@@ -27,18 +27,36 @@ a, a:active, a:hover, a:link, a:visited {
   justify-content: center;
 }
 
-.social-icon:hover {
-  filter: brightness(75%);
-}
-
 .social-github {
   color: black;
 }
 
+/*
+On my laptop (and only in Firefox oddly enough), I was having issues with the brightness() filter function
+in CSS. The elements were disappearing when hovered over. It works great on
+every other browser on my laptop and fine on my desktop (Firefox, Chrome). So while this may just be
+a fluke or an edge-case or some weird configuration I have (I really don't know what it is *sigh*), I figured,
+why not make it work on all browsers.
+
+Less elegant solution, but should work on every browser configuration that supports
+:hover and basic CSS integration. I couldnot find much information on the issue I was having
+ (I only found one other related on StackOverflow (poor search terms?)),
+this is an issue, and whether it be because of a GPU integration or some weird edge case, I figure I might as well make it
+work.
+*/
 .social-twitter {
   color: #1DA1F2;
 }
 
+.social-twitter:hover {
+  color: #0D95E8;
+}
+
 .social-steam {
   color: #464749;
+}
+
+
+.social-steam:hover {
+  color: #2d2e2f;
 }
