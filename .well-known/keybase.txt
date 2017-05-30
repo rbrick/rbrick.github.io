@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/rbrick
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rcw.io
+  * I am rbrick (https://keybase.io/rbrick) on keybase.
+  * I have a public key with fingerprint 7FD0 78B7 80DB 4F68 C920  5B72 5041 DA99 F87E F9C6
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101549ff5f8f1fe9ca7e20ba71635584cf29b504a31b0f9f6d2c0d4f66e177051af0a",
+            "fingerprint": "7fd078b780db4f68c9205b725041da99f87ef9c6",
+            "host": "keybase.io",
+            "key_id": "5041da99f87ef9c6",
+            "kid": "0101549ff5f8f1fe9ca7e20ba71635584cf29b504a31b0f9f6d2c0d4f66e177051af0a",
+            "uid": "4ff6e69fd5d688c31acbee835aeed619",
+            "username": "rbrick"
+        },
+        "service": {
+            "hostname": "rcw.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1496110807,
+    "expire_in": 157680000,
+    "prev": "b33ea7c1036e1f214baf77f17050fe4c87fd0d7035033b461d43deea5c2cbad1",
+    "seqno": 18,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.71
+Comment: https://keybase.io/crypto
+
+yMM2AnicrVJtUFRVGF6g5WP52DKFzRlQ7jS65Er33O+7OhINMUU1UjNRBux6P85Z
+Lgu7dHdZ2FBHIphqMptiZpNSJ3UmssTQPoYBIlfCBD9aZUQThzQDTRwZCLAhonsp
+//Wz8+fMec/zPOd53vP2JscYTFGFuT/turvtj76ogWPvVhs22S4M1WGiVw5i9jrM
+DRc3WCFDn9/pVmTMjuEABzTFI0QjDgEEeUlgIYGLAgsYkqY5SkIEL9I4JZBAxBGP
+GJmQcJlCDAMBy+I0EBAuYDYMKR4XVKtUxePXZFkk4ywnshwuixqWk3gCp0WW0ISA
+LPA84liIeInRiGVen87QzImCD2YrXq2mHZyL9v4D/z/7rl6UoxBiIMMjmZYZjpNI
+IEgihBxJCxDKDOB1oA+qHqESamhVVBXJjW21YVotoEhQb6ue4969VPNPjirV6/dK
+3gqtVub3V/nsOscfrNJBNVB0/kt3iopH1vqnMQJQ9SleD2YHGlLyK7oeoHgGAJzD
+WRsGa6sUFToVHUGzDIdrS38HBjRJkSShwEoAJ7WQiACUKCCWRUCLiyNISZz+LTKL
+kzROkiLFAJkiZQgFWiIkUZABpgd6xePVtDnNp+DSNH2KyyP4q1WIbQ0fK7nPEGUy
+xBqj9cEymBLuvzduh2fNC45W0+VQqONWixznaUqde7guvZcKnk11p3flGNvTTOng
+QaxpzWT3Ox9jc3s/aSm5URsw30mXduzvrE1Zeby58/a6b0asEbY7a8/M0Y92mhJZ
+tmC1GLwc+zVD7L7RBr6LPmIsWpc3d6VU3J05cp4byU7avvFN46pA7Z9HLKPX7iSf
+sB8c2zf/Vu6OU69+5ndYU07Gn4/wBZuKcmKdU7MHnolgXRFXR3SmzTwcfpr8/sJg
+3qdpQtvNcP1Dh/J9xY9jE8fd5tnT5vgPqBV11tEEsWX/8oqMEosXHNy+8+KyJb8b
+5JSrY62Na2ueGvxwZXzcRHC0ozQlkY9hatqDGeXloYsDo0M5beHVTA987W3Tmry4
+uJDL8uuZ7v6bsvHM1c3j19Sir8Qnlz4WjjnckN8Ahyepkz3Fv0zcnVm6kfaOucPX
+XxhPOVd/anln6P1QU3HCkuiekvdmNq+fibwuzMPxwMDzmVsevT1ZH24bzniCIPYs
+tG+xHBjg/upofrbFvJbrLx/qH0zfO+1LdHdZHvE55pN7bZHhn7vjC/oKNnxeFvvy
+JemBFU2NjtbQ0SsnKtUf4/POjmxIXfWG7bfp3Nkvupj6JKe1dDo56aUfEuu2zfW9
+WOnZR1wyfWnNf66iuv1QIbaMud5sMXZMNd/aNXruWyrN1LoACEe7OSu78DS9vqEx
+TGVN/Q19OLoO
+=/3e2
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rbrick
+
+==================================================================
