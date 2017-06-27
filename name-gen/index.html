@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head> 
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+        <style>
+            * {
+                font-family: 'Raleway', sans-serif;
+            }
+            .center {
+                margin: auto;
+                width: 50%;
+            }
+
+            .text-center {
+                text-align: center;
+            }
+
+            button {
+                width: 100%;
+                padding: 10px;
+                background: #FFFFFF;
+                border-style: solid;
+                border-width: 1px;
+                border-radius: 30px;
+                border-color: #FF4136;
+            }
+
+            button:active {
+                /*background-color: red;*/
+                 border-color: #85144b;
+            }
+        </style>
+
+        <script>
+            function onComplete(e) {
+    
+            }
+            function generateName() {
+                var oReq = new XMLHttpRequest();
+                oReq.onload = function() {
+                    document.getElementById("random-name").innerText = oReq.responseText;
+                }
+                oReq.open("GET", "http://cognitive-galago.rcw.io/random");
+                oReq.send();
+            }
+        </script>
+    </head>
+    <body>
+        <div class="center">
+            <h1 class="text-center">Name Generator</h1>
+            <div class="center">
+                <h3 class="text-center" id="random-name"></h3>
+                <button onclick="generateName();">Generate</button>
+            </div>
+        </div>
+    </body>
+</html>
