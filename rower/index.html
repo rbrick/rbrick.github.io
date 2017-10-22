@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Swanky and Moo Moo', cursive;
+        }
+
+        .center {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        blockquote {
+            margin: auto;
+            width: 50%;
+            text-align: left;
+            /* padding: 10px; */
+            font-size: 20px;
+        }
+
+        blockquote p {
+            padding: 10px;
+            width: 400px;
+        }
+
+        img {
+            padding: 10px;
+            width: 400px;
+        }
+    </style>
+    <script src="quote.js"></script>
+    <script>
+        var rower = document.createElement('p');
+
+        rower.textContent = "- The Rower";
+
+        function generateQuote() {
+            var rq = document.getElementById('rq');
+            rq.innerHTML = '';
+            var rn = Math.round(Math.random() * (quotes.quotes.length-1));
+            var qp = document.createElement('p');
+            var q = quotes.quotes[rn];
+            console.log(q);
+            console.log(rn);
+            console.log(quotes.quotes.length);
+            rower.title = "Real Author: " + q.author;
+
+            qp.textContent = q.quote;
+
+            rq.appendChild(qp);
+            rq.appendChild(rower);
+
+        }
+
+    </script>
+</head>
+
+<body onload="generateQuote();">
+    <div class="center">
+        <h1>What would The Rower say?</h1>
+        <img src="the_rower.jpg" />
+        <blockquote id="rq">
+        </blockquote>
+        <button onclick="generateQuote();">New Quote</button>
+    </div>
+</body>
+
+</html>
