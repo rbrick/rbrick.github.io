@@ -415,6 +415,10 @@ var quotes = {
         {
             quote: "I just row, man.",
             author: "The Rower"
+        },
+        {
+            quote: "Virtue is choked with foul ambition.",
+            author: "William Shakespeare"
         }
     ]
 };
