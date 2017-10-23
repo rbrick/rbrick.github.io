@@ -419,6 +419,10 @@ var quotes = {
         {
             quote: "Virtue is choked with foul ambition.",
             author: "William Shakespeare"
+        },
+        {
+            quote: "You do ill if you praise, but worse if you censure, what you do not understand.",
+            author: "Leonardo da Vinci"
         }
     ]
 };
