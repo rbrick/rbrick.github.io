@@ -10,23 +10,31 @@
         }
 
         .center {
-            margin: auto;
+            margin: 0 auto;
             width: 50%;
             padding: 10px;
             text-align: center;
         }
 
         blockquote {
-            margin: auto;
-            width: 50%;
+            /* margin: auto;
+            width: 50%; */
             text-align: left;
             /* padding: 10px; */
             font-size: 20px;
         }
 
-        blockquote p {
-            padding: 10px;
+        .bq {
+            margin-left: 135px;
+            
+            border-top-width: 0px;
+            border-bottom-width: 0px;
+            border-right-width: 0px;
+
+            border-left-width: 1px;
+            border-style: solid;
             width: 400px;
+            padding: 15px;
         }
 
         img {
@@ -65,7 +73,7 @@
     <div class="center">
         <h1>What would The Rower say?</h1>
         <img src="the_rower.jpg" />
-        <blockquote id="rq">
+        <blockquote id="rq" class="bq">
         </blockquote>
         <button onclick="generateQuote();">New Quote</button>
     </div>
